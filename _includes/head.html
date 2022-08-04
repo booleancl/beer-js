@@ -35,7 +35,7 @@
 
     {% if site.extra_css %}
 		{% for css_file in site.extra_css %}
-			<link rel="stylesheet" href="{{ css_file }}">
+			<link rel="stylesheet" href="{{ css_file | relative_url }}">
 		{% endfor %}
 	{% endif %}
 </head>
