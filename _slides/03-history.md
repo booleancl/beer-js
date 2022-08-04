@@ -1,5 +1,5 @@
 ---
-background: /assets/img/base/SLIDES-CONTENT.jpg
+background: https://res.cloudinary.com/boolean-spa/image/upload/v1659656484/events/SLIDES-CONTENT_kckysm.jpg
 ---
 
 <h3 class="text-white"> Mi Historia en la pedagogía</h3>

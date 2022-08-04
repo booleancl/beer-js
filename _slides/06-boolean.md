@@ -1,5 +1,5 @@
 ---
-background: "/assets/img/base/SLIDES-COVER.jpg"
+background: "https://res.cloudinary.com/boolean-spa/image/upload/v1659656484/events/SLIDES-COVER_djytvz.jpg"
 ---
 
 
