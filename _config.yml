@@ -1,0 +1,31 @@
+# SITE CONFIGURATION
+baseurl: "/"
+favicon: assets/favicon.png                             # Icon displayed in the tab
+
+reveal:
+  title: "Buk Ruby y Rails"
+  transition: "slide" # none/fade/slide/convex/concave/zoom
+  theme: "simple" # beige/blood/league/moon/night/serif/simple/sky/solarized/white
+  number: true
+  numberType: "c" # "h.v" / "h/v" / "c/t"
+
+# Slides
+collections:
+  slides:
+    output: true
+    permalink: /:collection/:name
+  basements:
+    output: true
+    permalink: /:collection/:name
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea"]
+
+# Additional custom CSS paths
+extra_css: 
+  /assets/css/main.css

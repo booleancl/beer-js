@@ -1,0 +1,36 @@
+$tokens-color-black: rgb(4, 5, 10);
+$tokens-color-grey-dark: rgb(34,36,68);
+$tokens-color-grey-normal: rgb(69,71,101);
+$tokens-color-grey-medium: rgb(90,95,117);
+$tokens-color-grey-soft: rgb(138,141,158);
+$tokens-color-grey-light: rgb(229,232,238);
+
+$tokens-color-blue-dark: rgb(19,33,147);
+$tokens-color-blue: rgb(6,64,246);
+$tokens-color-blue-soft: rgb(41,135,255);
+$tokens-color-blue-light: rgb(95,221,255);
+$tokens-color-blue-bright: rgb(199,240,255);
+
+$tokens-color-purple-dark: rgb(117,67,255);
+$tokens-color-purple: rgb(137,81,255);
+$tokens-color-purple-soft: rgb(180,133,255);
+$tokens-color-purple-gradient: linear-gradient(45deg, rgba(180,133,255,1) 0%, rgba(175,99,251,1) 50%, rgba(53,211,255,1) 100%);
+
+$tokens-color-purple-gradient-light: linear-gradient(45deg, rgba(180, 133, 255, 0.1) 0%, rgba(175,99,251,1) 50%, rgba(53,211,255,0.5) 100%);
+
+$tokens-color-pink: rgb(225,161,255);
+$tokens-color-pink-dark: rgb(177,67,255);
+
+$tokens-color-red: #ff7485;
+$tokens-color-orange: rgb(252,186,158);
+$tokens-color-orange-dark: #ff9900;
+$tokens-color-yellow: rgb(255,245,169);
+
+// ----
+// TODO: check with Mario if this color should be defined in figma or replace it
+$tokens-color-white: rgb(255, 255, 255);
+$tokens-color-almost-dark-blue: rgb(68, 72, 87);
+$tokens-color-new: rgb(80, 85, 106);
+$tokens-color-footer-background: $tokens-color-black;
+$tokens-color-course-planification: rgb(198, 201, 212);
+$tokens-color-checkout-plan-default: rgb(198, 201, 212);

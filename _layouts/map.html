@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Árbol de ruta</title>
+ <!--Favicon-->
+ <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
+ {% if site.extra_css %}
+		{% for css_file in site.extra_css %}
+			<link rel="stylesheet" href="{{ css_file }}">
+		{% endfor %}
+	{% endif %}
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 80vh;
+}
+</style>
+</head>
+<body style="background-image: url(../assets/img/base/SLIDES-CONTENT.jpg); background-size: cover;  background-position: center;">
+  {{ content }}
+  <svg id="mindmap"></svg>
+  <div id="mindmap-controls"></div>
+  <script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.13.5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.5/dist/index.umd.min.js"></script>
+  
+  <script>
+    
+  document.addEventListener('DOMContentLoaded',event =>{  
+    
+    const { Markmap } = window.markmap;
+    mm = Markmap.create('svg#mindmap', undefined, data);   
+    
+    const circles = document.querySelectorAll('circle')
+    const click = new MouseEvent('click')
+    circles.forEach((circle) => circle.dispatchEvent(click))
+    
+    mm.fit()
+    
+    setTimeout(()=>{
+      const { markmap, mm } = window;
+      const container = document.querySelector('#mindmap-controls')
+      const toolbar = new markmap.Toolbar();
+      const el = toolbar.render();
+      toolbar.attach(mm);
+      container.append(el);
+    })  
+  })
+  
+</script>
+</body>
+
