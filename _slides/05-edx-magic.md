@@ -1,20 +1,20 @@
 ---
 background: /assets/img/base/SLIDES-CONTENT.jpg
-transition: concave
 ---
 
 {:.text-white}
 ### eDX, Pruebas de Software y MAGIC
 
 {:.fragment}
-Nace en 2016 como idea de enseñar tecnologías pero con profundo hincapié en material práctico
+EdX es un proveedor de cursos en línea masivos y abiertos.
 
 {:.fragment .text-lightning}
-Primeras consultorías en Desarollo de Software con Angular en 2018
+Trabajan con las universidades y organizaciones líderes a nivel mundial
 
 {:.fragment}
-Experiencia online como parte de nuestra metodología enseñando prácticas como <span class="text-purple">Pruebas de Software e Integración Continua</span>
+Me interesó porque enseñaban <span class="text-purple">Pruebas de Software e Integración Continua</span>
 
 {:.fragment}
-Sabiamos que la experiencia que queriamos construir para los estudiantes era 
- <span class="text-tomato">DEMASIADO COSTOSA</span>
+Al cursarlo descubri que no solo enseñaban pruebas, <span class="text-lightning">sino que las usaban para revisar los trabajos</span>
+
+

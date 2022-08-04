@@ -78,6 +78,12 @@ body:after {
     color: $tokens-color-pink;
   }
 
+  pre {
+    height: 550px;
+    width: 100%;
+    margin: 10px auto;
+  }
+
   .text-white {
     color: $tokens-color-white;
   }
@@ -97,6 +103,10 @@ body:after {
 
   .text-lightning {
     color: $tokens-color-yellow;
+  }
+
+  .text-blue {
+    color: $tokens-color-blue-dark;
   }
 
   .text-pink {
