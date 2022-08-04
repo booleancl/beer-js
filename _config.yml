@@ -3,7 +3,7 @@ baseurl: "/"
 favicon: assets/favicon.png                             # Icon displayed in the tab
 
 reveal:
-  title: "Buk Ruby y Rails"
+  title: "Beer JS Agosto 2022"
   transition: "slide" # none/fade/slide/convex/concave/zoom
   theme: "simple" # beige/blood/league/moon/night/serif/simple/sky/solarized/white
   number: true

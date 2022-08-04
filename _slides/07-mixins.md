@@ -1,5 +1,5 @@
 ---
-background: "/assets/img/base/SLIDES-COVER.jpg"
+background: "https://res.cloudinary.com/boolean-spa/image/upload/v1659598982/events/BEER-JS-08-2022-SLIDES-COVER_aqdixz.jpg"
 ---
 
 <pre><code data-line-numbers="3-5|8-10|13-15">

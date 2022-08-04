@@ -103,6 +103,13 @@ body:after {
     color: $tokens-color-pink;
   }
 
+  .cover-title {
+    background: rgba(19,33,147, 0.6);
+    padding: 2vw;
+    font-size: 4rem;
+    border-radius: 2rem;
+  }
+
   li.simple {
     list-style-type: none;
   }

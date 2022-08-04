@@ -3,7 +3,8 @@ background: "https://res.cloudinary.com/boolean-spa/image/upload/v1659598982/eve
 layout: presentation
 ---
 
-##  Pruebas Automatizadas Masivas utilizando GitHub Actions y Classroom 
-
-{: .text-tomato}
-G0-julio-2022
+<h2 class="cover-title">
+  <span class="text-white">Pruebas Automatizadas Masivas</span>
+  <span class="text-lightning">utilizando GitHub Actions y Classroom</span>
+</h2>
+<span class="text-purple">Gonzalo Pincheira A. - @gpincheiraa </span>
